@@ -30,7 +30,7 @@ public class ShopRestController {
 	IShopService shopService;  //Service which will do all data retrieval/manipulation work
 
 	
-	//-------------------Retrieve All Users--------------------------------------------------------
+	//-------------------Retrieve All Shops--------------------------------------------------------
 	
 	@RequestMapping(value = "/shops/", method = RequestMethod.GET)
 	public ResponseEntity<List<Shop>> listAllUsers() {
